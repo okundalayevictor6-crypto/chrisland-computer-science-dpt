@@ -17,7 +17,12 @@
           <span>Chrisland University</span> 
         </a>
       </div>
-      <ul class="nav-links">
+       <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links" id="navLinks">
         <li><a href="index.html">Home</a></li>
         <li><a href="courses.html">Courses</a></li>
         <li><a href="handbook.html">Handbook</a></li>
@@ -26,6 +31,7 @@
         <li><a href="contact.html" class="active">Contact</a></li>
       </ul>
     </div>
+    <div class="nav-overlay" id="navOverlay" onclick="toggleMenu()"></div>
   </nav>
 
   <section class="contact">
